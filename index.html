@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- DaisyUI & Tailwind setup -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header class="">
+        <!-- Navbar Start  -->
+        <nav class="sm:mx-20">
+            <div class="navbar bg-base-100 shadow-sm">
+                <div class="navbar-start">
+
+                    <a class=" text-xl"><img src="./c2-assets/logo-header.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Product</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li><a>Product</a></li>
+                            <li><a>Services</a></li>
+                            <li><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 hidden md:inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6 hidden md:inline">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+
+                    <button class="btn btn-outline btn-success hidden md:inline">Login</button>
+                    <button class="btn bg-[#179800] hidden md:inline text-white">Register</button>
+
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section Start  -->
+        <section class="bg-linear-to-t from-gray-200 to-white text-center my-5 space-y-5">
+            <div class="space-y-5 sm:w-2/3 mx-auto">
+                <h1 class="text-5xl font-semibold">Freshness <span class="text-[#179800]">You Can</span> <br>
+                    <span class="text-[#179800]">Count</span> On, Prices You’ll Love!
+                </h1>
+                <p class="text-2xl p-2">Shop your daily essentials at unbeatable prices. From fresh produce to pantry
+                    staples, we’ve got you covered every day!</p>
+            </div>
+            <div class="flex justify-center animate-pulse">
+                <img src="./c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- own maid part  -->
+         <figure class="diff aspect-16/9" tabindex="0">
+  <div class="diff-item-1" role="img" tabindex="0">
+    <div class="bg-[#179800] text-primary-content grid place-content-center text-9xl font-black">
+      Grocery BD
+    </div>
+  </div>
+  <div class="diff-item-2" role="img">
+    <div class="bg-base-200 grid place-content-center text-9xl font-black">Grocery BD</div>
+  </div>
+  <div class="diff-resizer"></div>
+</figure>
+        <!-- service section start  -->
+        <section class="sm:mx-30 my-16 ">
+            <h2 class="text-3xl my-5 font-semibold text-[#179800]">Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-center ">
+                <div>
+                    <div class="bg-gray-300 rounded-lg p-5 space-y-3 h-96">
+                        <img class="rounded-full mx-auto bg-white p-5" src="./c2-assets/service.png" alt="">
+                        <h4 class="text-2xl font-semibold">24/7 Services </h4>
+                        <p class="text-lg">24/7 support helps customers get the answers they need at any time of the
+                            day.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-gray-300 rounded-lg p-5 space-y-3 h-96">
+                        <img class="rounded-full mx-auto bg-white p-5" src="./c2-assets/delivery.png" alt="">
+                        <h4 class="text-2xl font-semibold">Fast Delivery </h4>
+                        <p class="text-lg">Examples of fast delivery services include Lalamove in Bangladesh and
+                            Deliveroo.</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="bg-gray-300 rounded-lg p-5 space-y-3 h-96">
+                        <img class="rounded-full mx-auto bg-white p-5" src="./c2-assets/healthy.png" alt="">
+                        <h4 class="text-2xl font-semibold">Healthy Products </h4>
+                        <p class="text-lg">Eating various nutritious foods, including fruit, vegetables, nuts, seeds,
+                            and lean protein, can help support your overall health.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!------------- popular product section start --------------  -->
+        <section class="my-10 py-5 bg-gray-200 ">
+            <h2 class="text-3xl sm:ml-30 my-5 font-semibold text-[#179800]">Popular Products</h2>
+            <div class="flex flex-col lg:flex-row gap-5 justify-center ">
+                <!-- product div 1 -->
+                <div class="relative rounded-lg bg-linear-to-tl from-gray-200 to-green-500">
+                    <div class="pt-10 px-10 space-y-2">
+                        <h3 class="text-2xl text-white font-bold ">30% Off</h3>
+                        <p>Chaldal always has fantastic offers on various items.</p>
+                        <button class="btn bg-white text-black border-[#e5e5e5]">Buy Now</button>
+                    </div>
+                    <img class="absolute h-32 md:h-full bottom-0 right-0" src="./c2-assets/vegetable-offer.png" alt="">
+                </div>
+                <!-- product div 2 -->
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-5">
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-200 rounded" src="./c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Tomato 500 g</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Onion 1kG</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Onion 1kG</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/potato.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Potato 2KG</h5>
+                            <p>$3700</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Onion 1kG</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/tomato.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Tomato 1 kG</h5>
+                            <p>$1900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Onion 1kG</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/potato.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.3</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Potato 500 G</h5>
+                            <p>$3500</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg bg-white p-3">
+                        <div>
+                            <img class="bg-slate-400 rounded" src="./c2-assets/onion.png" alt="">
+                        </div>
+                        <div class="ml-2">
+                            <div class="flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                </svg>
+                                <p>4.5</p>
+                            </div>
+                            <h5 class="text-lg font-semibold">Onion 1kG</h5>
+                            <p>$3900</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ----------- Arrival & offer section start ------------------  -->
+         <section class="sm:mx-30 my-16 mb-90 sm:mb-60">
+            <h2 class="text-3xl my-5 font-semibold text-[#179800]">Arrival & offers</h2>
+            <div class="flex flex-col sm:flex-row m-5 justify-center gap-5 ">
+                <div class="bg-green-900 flex justify-around items-center  p-10 rounded-xl">
+                    <div class="flex flex-col justify-center items-center space-y-5">
+                        <img src="./c2-assets/dawat-logo.png" alt="">
+                        <button class="btn bg-[#63B76D] border-none text-white shadow-none">Cook Exotic Dishes</button>
+                        <h4 class="text-white text-3xl">UP to <span class="font-bold">20% OFF</span></h4>
+                    </div>
+                    <div>
+                        <img src="./c2-assets/dawat-mock-up.png" alt="">
+                    </div>
+                </div>
+                <div class="bg-blue-900 flex justify-around items-center p-5 rounded-xl">
+                    <div class="space-y-5 ">
+                        <img src="./c2-assets/india-gate-logo.png" alt="">
+                        <button class="btn bg-[#2A4D97] border-none text-white shadow-none">World Number 1 Rice</button>
+                        <h4 class="text-white text-3xl">UP to <span class="font-bold">60% OFF</span></h4>
+                    </div>
+                    <div>
+                        <img src="./c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- set grocery news section  -->
+          <section class="relative ">
+            <div class="absolute -top-90 sm:-top-40   flex flex-col md:flex-row bg-base-300 justify-center items-center mx-10 sm:mx-90 rounded-xl">
+                <div class=" p-10">
+                    <img src="./c2-assets/vegetable-busket.png" alt="">
+                </div>
+                <div class="space-y-5 p-10">
+                    <h3 class="text-3xl font-semibold">Get Grocery News!</h3>
+                    <p>Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="py-5 px-10 border-none bg-white rounded-xl" type="email" name="" id="" placeholder="Enter your email">
+                    <button class="btn bg-[#179800] block text-white">Subscribe</button>
+                </div>
+            </div>
+          </section>
+    </main>
+    <!-- footer start  -->
+    <footer class="footer sm:footer-horizontal bg-[#179800] text-base-content p-10 pt-60 text-white">
+  <nav>
+    <img src="./c2-assets/logo-footer.png" alt="">
+    <h4>Discover a world of treats, toys, and essentials handpicked for your furry friends</h4>
+  </nav>
+  <nav>
+    
+    <a class="link link-hover">About us</a>
+    <a class="link link-hover">Contact</a>
+    <a class="link link-hover">Product</a>
+    
+  </nav>
+  <nav>
+    <h6 class="footer-title">Follow Us</h6>
+    <div class="grid grid-flow-col gap-4">
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+        </svg>
+      </a>
+      <a>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          class="fill-current">
+          <path
+            d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+        </svg>
+      </a>
+    </div>
+  </nav>
+</footer>
+</body>
+
+</html>
